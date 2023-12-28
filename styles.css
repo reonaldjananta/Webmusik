@@ -1,0 +1,111 @@
+:root {
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  --varyDarkBlue: hsl(234, 12%, 34%);
+  --grayishBlue: hsl(229, 6%, 66%);
+  --veryLightGray: hsl(0, 0%, 98%);
+  --weight1: 200;
+  --weight2: 400;
+  --weight3: 600;
+  --card-transparant: rgba(15, 56, 65, 0.79); 
+}
+
+body {
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  background-image: url('assets/blur1.jpg');
+  background-size: cover;
+}
+
+
+.attribution { 
+  font-size: 11px; text-align: center; 
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+h1:first-of-type {
+  font-weight: var(--weight1);
+  color: var(--varyDarkBlue);
+
+}
+
+h1:last-of-type {
+  color: var(--varyDarkBlue);
+}
+
+.header {
+  text-align: center;
+  line-height: 0.8;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+.header p {
+  margin: 0 auto;
+  line-height: 2;
+  color: var(--grayishBlue); 
+}
+
+
+.box p {
+  color: var(--grayishBlue);
+}
+
+.box {
+  border-radius: 50px;
+  background: var(--card-transparant); 
+  padding: 20px;
+  padding: 30px;
+  margin: 20px;  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ /* border: solid 1px; */
+}
+
+.box h2 {
+  text-align: center;
+  color: #ffffff;
+}
+
+.img-music {
+  /* background: url('assets/music-logo.png') */
+  width: 60px;
+  /* justify-content: center;
+  align-items: center; */
+  border: solid 1px;
+  /* text-align: center; */
+  margin-left: -10px;
+}
+
+h2 {
+  color: var(--varyDarkBlue);
+  font-weight: var(--weight3);
+}
+
+.card-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+.card-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+.box-down {
+      position: relative;
+      top: 150px;
+  }
+.box {
+      width: 20%;
+  }
+.header p {
+      width: 30%;
+  }
+  
